@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <h1>Personal details</h1>
+      <hr style="margin-bottom: 20px" />
+      <div class="form-g">
+        <label class="label" for="name">Name:</label>
+        <input class="input" type="text" id="name" autocomplete="off" />
+      </div>
+
+      <div class="form-g">
+        <label class="label" for="job">Job title:</label>
+        <input class="input" type="text" id="job" autocomplete="off" />
+      </div>
+
+      <div class="form-g">
+        <label class="label" for="phone">Phone number:</label>
+        <input class="input" type="tel" id="phone" autocomplete="off" />
+      </div>
+
+      <div class="form-g">
+        <label class="label" for="email">Email:</label>
+        <input class="input" type="email" id="email" autocomplete="off" />
+      </div>
+
+      <div class="form-g">
+        <label class="label" for="address">Address:</label>
+        <input class="input" type="text" id="address" autocomplete="off" />
+      </div>
+
+      <div class="form-g">
+        <label class="label" for="pic">Profile Picture:</label>
+        <input class="input" type="file" id="pic" autocomplete="off" />
+      </div>
+
+      <h1>Education</h1>
+      <hr style="margin-bottom: 20px" />
+      <div>
+        <div class="form-g">
+          <label class="label" for="pass">Passing Year:</label>
+          <input class="input" type="number" id="pass1" autocomplete="off" />
+        </div>
+
+        <div class="form-g">
+          <label class="label" for="degree">Degree:</label>
+          <input class="input" type="text" id="degree1" autocomplete="off" />
+        </div>
+
+        <div class="form-g">
+          <label class="label" for="inst">Institute:</label>
+          <input class="input" type="text" id="inst1" autocomplete="off" />
+        </div>
+      </div>
+
+      <div>
+        <div class="form-g">
+          <label class="label" for="pass">Passing Year:</label>
+          <input class="input" type="number" id="pass2" autocomplete="off" />
+        </div>
+
+        <div class="form-g">
+          <label class="label" for="degree">Degree:</label>
+          <input class="input" type="text" id="degree2" autocomplete="off" />
+        </div>
+
+        <div class="form-g">
+          <label class="label" for="inst">Institute:</label>
+          <input class="input" type="text" id="inst2" autocomplete="off" />
+        </div>
+      </div>
+
+      <h1>Skills</h1>
+      <hr style="margin-bottom: 20px" />
+
+      <div class="form-g">
+        <label class="label" for="skill">Skill:</label>
+        <input class="input mb-20" type="text" id="skill1" autocomplete="off" />
+        <label class="label" for="skill">Skill:</label>
+        <input class="input mb-20" type="text" id="skill2" autocomplete="off" />
+        <label class="label" for="skill">Skill:</label>
+        <input class="input mb-20" type="text" id="skill3" autocomplete="off" />
+      </div>
+
+      <h1>Experience</h1>
+      <hr style="margin-bottom: 20px" />
+
+      <div class="form-g">
+        <label class="label" for="styr">Starting Year:</label>
+        <input class="input mb-20" type="number" id="styr" autocomplete="off" />
+
+        <label class="label" for="enyr">Ending Year:</label>
+        <input class="input mb-20" type="number" id="enyr" autocomplete="off" />
+
+        <label class="label" for="comp">Company:</label>
+        <input class="input mb-20" type="text" id="com" autocomplete="off" />
+
+        <label class="label" for="loc">Location:</label>
+        <input class="input mb-20" type="text" id="loc" autocomplete="off" />
+
+        <label class="label" for="jobt">Job title:</label>
+        <input class="input mb-20" type="text" id="jobt" autocomplete="off" />
+
+        <label class="label" for="acc">Accomplishments:</label>
+        <input class="input mb-20" type="text" id="acc1" autocomplete="off" />
+        <input class="input mb-20" type="text" id="acc2" autocomplete="off" />
+        <input class="input mb-20" type="text" id="acc3" autocomplete="off" />
+      </div>
+      <br />
+      <hr style="margin-bottom: 20px" />
+      <div class="btndiv">
+        <input id="subtn" class="submit" type="submit" />
+      </div>
+    </form>
+  </body>
+  
+  <script src="script.js"></script>
+</html>

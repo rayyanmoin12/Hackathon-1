@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="resumeDiv">
+      <header>
+        <div>
+          <h1><span id="myName"></span></h1>
+          <p><span id="myJob"></span></p>
+        </div>
+        <img id="resImg" src="pic.png" alt="" />
+      </header>
+      <div class="content">
+        <aside>
+          <section id="con" class="contact">
+            <h1>Contact details</h1>
+            <p><strong>Phone number</strong></p>
+            <p><span id="myPhone"></span></p>
+            <p><strong>Email</strong></p>
+            <p><span id="myEmail"></span></p>
+            <p><strong>Address</strong></p>
+            <p><span id="myAddress"></span></p>
+          </section>
+
+          <section id="edu" class="education">
+            <h1>Education</h1>
+            <p><span id="p1"></span></p>
+            <p>
+              <strong><span id="d1"></span></strong>
+            </p>
+            <p><span id="i1"></span></p>
+            <br />
+            <p><span id="p2"></span></p>
+            <p>
+              <strong><span id="d2"></span></strong>
+            </p>
+            <p><span id="i2"></span></p>
+          </section>
+
+          <section id="ski" class="skill">
+            <h1>Skills</h1>
+            <ul>
+              <li><span id="sk1"></span></li>
+              <li><span id="sk2"></span></li>
+              <li><span id="sk3"></span></li>
+            </ul>
+          </section>
+        </aside>
+
+        <main id="exp" class="main-content">
+          <section id="ref" class="references">
+            <h1>References</h1>
+            <p>Can be provided</p>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <div class="btn">
+      <button id="print_btn" class="btn1">Print</button>
+      <button id="edit_btn" class="btn1">Edit</button>
+    </div>
+  </body>
+
+  <script src="resumeScript.js"></script>
+</html>
